@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css';
+import Counter from './components/counter';
+import CounterV2 from './components/counterV2';
+import Counters from './components/counters';
+import ConditionalRender from './components/conditionalRender'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>,
   document.getElementById('root')
 );
